@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis — informativa sulla privacy</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d1d1f; --muted: #5f6368; --bg: #fafafa; --line: #e3e3e3; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #ececec; --muted: #9aa0a6; --bg: #0f1012; --line: #2a2b2e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 20px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 28px 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  a { color: inherit; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Informativa sulla privacy</h1>
+  <p class="sub">Jarvis, assistente vocale personale · aggiornata il 27 ottobre 2026</p>
+
+  <h2>Chi usa Jarvis</h2>
+  <p>Jarvis è un'applicazione per uso esclusivamente personale: la usa solo il suo sviluppatore, sul proprio PC, con
+     il proprio account Google. Non ha altri utenti.</p>
+
+  <h2>Quali dati usa</h2>
+  <p>Con il consenso dato nella schermata di Google, Jarvis accede all'account Gmail del proprietario per leggere,
+     cercare, etichettare, archiviare, spostare nel cestino e inviare email, e per gestire risposta automatica e
+     filtri. Non cancella mai email in modo definitivo.</p>
+
+  <h2>Dove restano i dati</h2>
+  <p>Il permesso di accesso rilasciato da Google è salvato solo su quel PC, cifrato con la protezione dei dati di
+     Windows. Le email non vengono copiate su server di Jarvis: Jarvis non ha server.</p>
+
+  <h2>Con chi vengono condivisi</h2>
+  <p>Con nessuno. Quando il proprietario chiede a voce di leggere o riassumere una email, il testo necessario viene
+     elaborato dal modello linguistico che fa funzionare l'assistente (Anthropic Claude) solo per formulare la
+     risposta. I dati non vengono venduti, né usati per pubblicità o per addestrare modelli.</p>
+
+  <h2>Uso dei dati delle API di Google</h2>
+  <p>L'uso e il trasferimento delle informazioni ricevute dalle API di Google rispettano le
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">norme sui dati utente dei servizi API
+     di Google</a>, compresi i requisiti di uso limitato.</p>
+
+  <h2>Revoca</h2>
+  <p>Il permesso si revoca in qualsiasi momento da <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+     oppure chiedendo a Jarvis di scollegare Gmail: in quel caso il permesso viene revocato e cancellato dal PC.</p>
+
+  <footer><a href="./">Jarvis</a> · contatti tramite <a href="https://github.com/tatelaz">github.com/tatelaz</a></footer>
+</main>
+</body>
+</html>
